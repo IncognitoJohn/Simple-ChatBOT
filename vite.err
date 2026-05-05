@@ -1,0 +1,780 @@
+[2m16:01:17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/App.css?t=1777993276736
+[2m16:01:17[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.css. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:52:08[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m[0m[39m
+[2m16:52:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/App.jsx?t=1777996327946
+[2m16:52:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:52:09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m[0m
+[2m16:52:09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m[0m
+[2m16:52:10[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m[0m[39m
+[2m16:52:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m[0m
+[2m16:52:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m[0m
+[2m16:52:12[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m[0m[39m
+[2m16:52:12[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m[0m
+[2m16:52:13[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m[0m
+[2m16:52:13[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m[0m[39m
+[2m16:52:50[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:50[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:51[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:51[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:52[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:52[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:53[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:53[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:56[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:57[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:57[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:58[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:58[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:52:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:52:59[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:00[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:00[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:00[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:30[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/App.jsx?t=1777996409909
+[2m16:53:30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m16:53:30[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:30[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:31[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:31[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:31[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:32[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:33[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:34[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:34[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:34[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:35[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:35[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:36[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:36[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:37[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:38[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:39[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:45[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:53:46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:46[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:53:47[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:05[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:05[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:06[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:06[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:07[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:08[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:08[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:09[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:09[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:10[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:10[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:11[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:11[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:12[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:13[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:14[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:14[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
+[2m16:54:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:37[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[39m  [36mconst[39m [33mApp[39m[33m=[39m ()[33m=>[39m {
+ [90m  6 |[39m   [36mreturn[39m (
+[31m[1m>[22m[39m[90m  7 |[39m         [36mconst[39m [33mMessages[39m[33m=[39m[
+ [90m    |[39m         [31m[1m^[22m[39m
+ [90m  8 |[39m
+ [90m  9 |[39m                 {
+ [90m 10 |[39m                     text[33m=[39m[32m"hello chatbot"[39m[0m
+[2m16:54:38[22m [31m[1m[vite][22m[39m [31mInternal server error: [BabelError] C:\Users\richa\CLionProjects\untitled7\project_react\src\App.jsx: Unexpected token (7:8)
+
+[0m [90m  5 |[31m  [36mconst[31m [33mApp[31m[33m=[31m ()[33m=>[31m {
+ [90m  6 |[31m   [36mreturn[31m (
+[31m[1m>[22m[31m[90m  7 |[31m         [36mconst[31m [33mMessages[31m[33m=[31m[
+ [90m    |[31m         [31m[1m^[22m[31m
+ [90m  8 |[31m
+ [90m  9 |[31m                 {
+ [90m 10 |[31m                     text[33m=[31m[32m"hello chatbot"[31m[0m[39m
