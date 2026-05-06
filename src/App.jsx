@@ -3,46 +3,27 @@ import UserMessage from "./UserMessage.jsx";
 import BotMessage from "./BotMessage.jsx";
 import {Messages} from "./Messages.jsx";
 import {useState} from "react";
+import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
 
 
  const App= ()=> {
-     const [chatMessages,setChatMessage]=
+     const [chatMessages,setChatMessages]=
          useState(Messages);
-     function sendChatMessages() {
-         setChatMessage([...chatMessages,{
-             text:"test",
-             key: crypto.randomUUID(),
-             sender:"user",
-         },
-         ]);
-     }
+
 
 
     return (
       <div>
-        <ChatInput/>
+        <ChatInput
+        chatMessages={chatMessages}
+        setChatMessages={setChatMessages}/>
         <div className="mt-4 ml-4  flex flex-col">
-            <button onClick={sendChatMessages}>
-                Send Message
-            </button>
 
-            {
-                chatMessages.map((mess)=>{
-                   if (mess.sender==="user"){
-                    return (< UserMessage text = {mess.text}
-                                          key={mess.key}
-                    />);
-                    }
+            <ChatMessageComponent chatMessages={chatMessages}/>
 
 
 
-                   return (< BotMessage text = {mess.text}
-                                     key={mess.key}
-                    />
 
-                   );
-                })
-            }
 
         </div>
       </div>
