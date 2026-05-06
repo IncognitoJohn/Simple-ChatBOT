@@ -7,12 +7,14 @@ import BotMessage from "./BotMessage.jsx";
 
          {
              text:"hello chatbot",
-            key:"id_1"
+            key:"id_1",
+             sender:"user"
 
          },
          {
              text:"Can you get me today's date?",
-            key:"id_2"
+            key:"id_3",
+             sender:"user"
 
          }
      ];
@@ -21,31 +23,37 @@ import BotMessage from "./BotMessage.jsx";
 
          {
              text:"Hello! How can I help you?",
-             key:"id_1"
+             key:"id_2",
+             sender:"bot"
 
          },
          {
              text:"Today's date is 4th May",
-             key:"id_2"
+             key:"id_4",
+             sender:"bot"
 
          }
 
      ];
 
 const chatMessageComponent=UserMessages.map((mess,ID)=>{
-    return(< UserMessage text = {mess.text}
+      if (mess.user==="user")
+       return( < UserMessage text = {mess.text}
                          key={mess.key}
                          />
 
     )
-})
-     const BotComponent=BotMessages.map((mess,ID)=>{
-         return(< BotMessage text = {mess.text}
-                              key={mess.key}
-             />
 
-         )
-     })
+          return (< BotMessage text = {mess.text}
+                               key={mess.key}
+              />
+
+          );
+
+
+
+})
+
 
 
 
@@ -56,7 +64,6 @@ const chatMessageComponent=UserMessages.map((mess,ID)=>{
         <div className="mt-4 ml-4  flex flex-col">
 
             {chatMessageComponent}
-            {BotComponent}
 
         </div>
       </div>
