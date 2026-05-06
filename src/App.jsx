@@ -3,7 +3,7 @@ import UserMessage from "./UserMessage.jsx";
 import BotMessage from "./BotMessage.jsx";
 
  const App= ()=> {
-     const UserMessages=[
+     const Messages=[
 
          {
              text:"hello chatbot",
@@ -11,20 +11,18 @@ import BotMessage from "./BotMessage.jsx";
              sender:"user"
 
          },
-         {
-             text:"Can you get me today's date?",
-            key:"id_3",
-             sender:"user"
-
-         }
-     ];
-     const BotMessages=[
 
 
          {
              text:"Hello! How can I help you?",
              key:"id_2",
              sender:"bot"
+
+         },
+         {
+             text:"Can you get me today's date?",
+             key:"id_3",
+             sender:"user"
 
          },
          {
@@ -36,13 +34,14 @@ import BotMessage from "./BotMessage.jsx";
 
      ];
 
-const chatMessageComponent=UserMessages.map((mess,ID)=>{
-      if (mess.user==="user")
-       return( < UserMessage text = {mess.text}
+const chatMessageComponent=Messages.map((mess,ID)=>{
+      if (mess.sender==="user"){
+       return (< UserMessage text = {mess.text}
                          key={mess.key}
-                         />
+                         />);
+      }
 
-    )
+
 
           return (< BotMessage text = {mess.text}
                                key={mess.key}
