@@ -1,0 +1,9 @@
+[2m19:18:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReceived `true` for a non-boolean attribute `cur`.
+
+If you want to write it to the DOM, pass a string instead: cur="true" or cur={value.toString()}.
+[2m19:18:41[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReceived `true` for a non-boolean attribute `cur`.
+
+If you want to write it to the DOM, pass a string instead: cur="true" or cur={value.toString()}.
+[2m19:18:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReceived `true` for a non-boolean attribute `cur`.
+
+If you want to write it to the DOM, pass a string instead: cur="true" or cur={value.toString()}.

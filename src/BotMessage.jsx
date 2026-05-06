@@ -1,7 +1,7 @@
 const BotMessage = (props) => {
     const { text } =props;
   return (
-    <div className="flex my-2">
+    <div className="flex   my-2">
       <img className="h-12 w-12 rounded-full
       object-cover" src="/robot.jpg" alt="Bot"
       />

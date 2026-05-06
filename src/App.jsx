@@ -13,11 +13,11 @@ import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
 
 
     return (
-      <div>
+      <div className="flex flex-col items-center">
         <ChatInput
         chatMessages={chatMessages}
         setChatMessages={setChatMessages}/>
-        <div className="mt-4 ml-4  flex flex-col">
+
 
             <ChatMessageComponent chatMessages={chatMessages}/>
 
@@ -25,7 +25,7 @@ import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
 
 
 
-        </div>
+
       </div>
   )
 }
