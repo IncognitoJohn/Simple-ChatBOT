@@ -34,24 +34,7 @@ import BotMessage from "./BotMessage.jsx";
 
      ];
 
-const chatMessageComponent=Messages.map((mess,ID)=>{
-      if (mess.sender==="user"){
-       return (< UserMessage text = {mess.text}
-                         key={mess.key}
-                         />);
-      }
 
-
-
-          return (< BotMessage text = {mess.text}
-                               key={mess.key}
-              />
-
-          );
-
-
-
-})
 
 
 
@@ -62,7 +45,21 @@ const chatMessageComponent=Messages.map((mess,ID)=>{
         <ChatInput/>
         <div className="mt-4 ml-4  flex flex-col">
 
-            {chatMessageComponent}
+            {Messages.map((mess)=>{
+                if (mess.sender==="user"){
+                    return (< UserMessage text = {mess.text}
+                                          key={mess.key}
+                            />);
+                }
+                return (< BotMessage text = {mess.text}
+                                     key={mess.key}
+                    />
+
+                );
+
+
+
+            })}
 
         </div>
       </div>
