@@ -8,6 +8,14 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
 
 
     }
+
+    const onKeyDown=(event)=> {
+        event.key === "Enter" ? sendMessages() : null;
+    }
+
+
+
+
     function sendMessages() {
         const newChatMessages=[...chatMessages,{
             text:inputText,
@@ -27,21 +35,28 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
         ]);
         setInputText("");
     }
-    return <div className="flex items-center gap-3 p-2 ">
+    return <div className="flex w-full items-end gap-3">
         <input
             value={inputText}
-
             onChange={saveInputText}
+            onKeyDown={onKeyDown}
             type="text"
             placeholder="Type shitt..."
-            className="w-full max-w-sm rounded-lg
-            border border-stone-300 bg-white
-            px-4 py-2.5 text-sm text-stone-800
-            shadow-sm outline-none "
+            className="min-w-0 flex-1 rounded-lg border
+            border-slate-300 bg-slate-50 px-4 py-3
+            text-sm text-slate-900 placeholder:text-slate-400
+            shadow-sm outline-none transition
+            focus:border-violet-500 focus:bg-white
+            focus:ring-4 focus:ring-violet-100"
         />
         <button
         onClick={sendMessages}
-            className="rounded-lg bg-violet-600 px-5 py-2.5 text-sm font-medium text-white" type="button">
+            className="inline-flex shrink-0 items-center
+            justify-center rounded-lg bg-violet-600
+            px-5 py-3 text-sm font-semibold text-white
+            shadow-sm transition hover:bg-violet-700
+            focus:outline-none focus:ring-4
+            focus:ring-violet-200" type="button">
           Send
         </button>
     </div>
