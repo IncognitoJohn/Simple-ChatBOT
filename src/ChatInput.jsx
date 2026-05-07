@@ -8,6 +8,14 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
 
 
     }
+
+    const onKeyDown=(event)=> {
+        event.key === "Enter" ? sendMessages() : null;
+    }
+
+
+
+
     function sendMessages() {
         const newChatMessages=[...chatMessages,{
             text:inputText,
@@ -30,8 +38,8 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
     return <div className="flex w-full items-end gap-3">
         <input
             value={inputText}
-
             onChange={saveInputText}
+            onKeyDown={onKeyDown}
             type="text"
             placeholder="Type shitt..."
             className="min-w-0 flex-1 rounded-lg border
