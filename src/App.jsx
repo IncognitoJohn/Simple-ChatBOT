@@ -1,12 +1,21 @@
 import ChatInput from "./ChatInput.jsx";
 import {Messages} from "./Messages.jsx";
-import {useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
 
 
  const App= ()=> {
      const [chatMessages,setChatMessages]=
          useState(Messages);
+     const messagesContainerRef = useRef(null);
+
+     useEffect(() => {
+         const container = messagesContainerRef.current;
+
+         if (container) {
+             container.scrollTop = container.scrollHeight;
+         }
+     }, [chatMessages]);
 
 
 
@@ -21,7 +30,9 @@ import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
                   </div>
               </div>
 
-              <div className="order-1 flex-1 overflow-y-auto bg-slate-50/70 px-4 py-5 sm:px-6">
+              <div
+                  ref={messagesContainerRef}
+                  className="order-1 flex-1 overflow-y-auto bg-slate-50/70 px-4 py-5 sm:px-6">
                   <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
                       <ChatMessageComponent chatMessages={chatMessages}/>
                   </div>

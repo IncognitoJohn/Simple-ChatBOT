@@ -28,7 +28,7 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
 
         setChatMessages(newChatMessages);
 
-        const response=Chatbot.getResponseAsync(inputText);
+        const response=window.Chatbot.getResponseAsync(inputText);
         setChatMessages([...newChatMessages,{
             text:response,
             key: crypto.randomUUID(),
