@@ -7,6 +7,8 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
         setInputText(event.target.value);
 
 
+
+
     }
 
     const onKeyDown=(event)=> {
