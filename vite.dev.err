@@ -1,0 +1,28 @@
+[2m19:18:39[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReceived `true` for a non-boolean attribute `cur`.
+
+If you want to write it to the DOM, pass a string instead: cur="true" or cur={value.toString()}.
+[2m19:18:41[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReceived `true` for a non-boolean attribute `cur`.
+
+If you want to write it to the DOM, pass a string instead: cur="true" or cur={value.toString()}.
+[2m19:18:42[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22mReceived `true` for a non-boolean attribute `cur`.
+
+If you want to write it to the DOM, pass a string instead: cur="true" or cur={value.toString()}.
+[2m20:05:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/Messages.jsx (resolved id: C:/Users/richa/CLionProjects/project_react/src/Messages.jsx) in C:/Users/richa/CLionProjects/project_react/src/App.jsx. Does the file exist?
+[2m20:05:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/assets/ChatMessageComponent.jsx (resolved id: C:/Users/richa/CLionProjects/project_react/src/assets/ChatMessageComponent.jsx) in C:/Users/richa/CLionProjects/project_react/src/App.jsx. Does the file exist?
+[2m20:05:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/Messages.jsx?t=1778094352810
+[2m20:05:52[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/Messages.jsx?t=1778094352810
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/Messages.jsx?t=1778094352810
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] importUpdatedModule@http://localhost:5173/@vite/client:918:118
+fetchUpdate@http://localhost:5173/@vite/client:214:32
+queueUpdate@http://localhost:5173/@vite/client:193:30
+handleMessage/<@http://localhost:5173/@vite/client:943:55
+handleMessage@http://localhost:5173/@vite/client:942:38
+
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/Messages.jsx?t=1778094352810
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] TypeError: error loading dynamically imported module: http://localhost:5173/src/Messages.jsx?t=1778094352810
+[2m20:05:53[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [2m[console.error] [22m[vite] Failed to reload /src/App.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above)
