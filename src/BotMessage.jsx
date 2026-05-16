@@ -1,9 +1,10 @@
 const BotMessage = (props) => {
+    const base = import.meta.env.BASE_URL;
     const { text } =props;
   return (
     <div className= "flex w-full items-end gap-3">
       <img className="h-10 w-10 rounded-lg
-      object-cover ring-1 ring-slate-200" src="/robot.jpg" alt="Bot"
+      object-cover ring-1 ring-slate-200" src={`${base}robot.jpg`} alt="Bot"
       />
 
       <div className= "max-w-[80%] rounded-lg

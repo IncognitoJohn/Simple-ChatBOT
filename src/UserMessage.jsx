@@ -1,4 +1,5 @@
 const UserMessage = (props) => {
+    const base = import.meta.env.BASE_URL;
 const { text } =props;
   return (
     <div className= "flex w-full items-end justify-end gap-3" >
@@ -15,7 +16,7 @@ const { text } =props;
       <img className="h-10 w-10
         rounded-lg
          object-cover ring-1 ring-slate-200"
-           src="/User.jpg"
+           src={`${base}User.jpg`}
             alt="User" />
     </div>
   )

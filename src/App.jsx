@@ -1,6 +1,4 @@
 import ChatInput from "./ChatInput.jsx";
-import UserMessage from "./UserMessage.jsx";
-import BotMessage from "./BotMessage.jsx";
 import {Messages} from "./Messages.jsx";
 import {useState} from "react";
 import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
