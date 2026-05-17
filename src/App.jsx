@@ -2,7 +2,7 @@ import ChatInput from "./ChatInput.jsx";
 import {Messages} from "./Messages.jsx";
 import {useEffect, useRef, useState} from "react";
 import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 
  const App= ()=> {
