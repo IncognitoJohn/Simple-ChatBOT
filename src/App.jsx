@@ -40,7 +40,7 @@ import { Analytics } from "@vercel/analytics/react";
                       <ChatMessageComponent chatMessages={chatMessages}/>
                   </div>
                   <div className="accent-blue-700 text-4xl font-mono top-1 flex justify-center">
-                      CHATBOT MESSAGES
+                      JOHN'S CHATBOT MESSAGES
                   </div>
               </div>
           </div>
