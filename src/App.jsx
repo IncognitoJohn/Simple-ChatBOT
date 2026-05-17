@@ -2,6 +2,7 @@ import ChatInput from "./ChatInput.jsx";
 import {Messages} from "./Messages.jsx";
 import {useEffect, useRef, useState} from "react";
 import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
+import { Analytics } from "@vercel/analytics/next"
 
 
  const App= ()=> {
@@ -24,6 +25,7 @@ import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
           <div className="mx-auto flex h-[calc(100vh-3rem)] max-h-[56rem] w-full max-w-5xl flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
               <div className="order-2 border-t border-slate-200 bg-white px-3 py-3 sm:px-4">
                   <div className="mx-auto w-full max-w-4xl">
+                      <Analytics/>
                       <ChatInput
                           chatMessages={chatMessages}
                           setChatMessages={setChatMessages}/>
