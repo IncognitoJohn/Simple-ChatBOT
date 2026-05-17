@@ -43,7 +43,7 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
             onChange={saveInputText}
             onKeyDown={onKeyDown}
             type="text"
-            placeholder="Enter your message..."
+            placeholder="Enter message..."
             className="min-w-0 flex-1 rounded-lg border
             border-slate-300 bg-slate-50 px-4 py-3
             text-sm text-slate-900 placeholder:text-slate-400
