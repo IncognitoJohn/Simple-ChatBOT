@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build:gh",
     "build": "vite build",
+    "build:gh": "vite build --base=/Simple-ChatBOT/",
     "lint": "eslint .",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview"
