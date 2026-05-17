@@ -33,15 +33,17 @@ import { Analytics } from "@vercel/analytics/react";
                   </div>
               </div>
 
+              <div className="text-black bg-purple-400  p-2 rounded-2xl text-4xl font-mono  fixed flex items-center my-4 ml-70">
+                  JOHN'S CHATBOT APP
+              </div>
               <div
                   ref={messagesContainerRef}
                   className="order-1 flex-1 overflow-y-auto bg-slate-50/70 px-4 py-5 sm:px-6">
+
                   <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
                       <ChatMessageComponent chatMessages={chatMessages}/>
                   </div>
-                  <div className="accent-blue-700 text-4xl font-mono  fixed flex items-center ml-70">
-                      JOHN'S CHATBOT APP
-                  </div>
+
               </div>
           </div>
       </div>
