@@ -39,7 +39,7 @@ import { Analytics } from "@vercel/analytics/react";
                   <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
                       <ChatMessageComponent chatMessages={chatMessages}/>
                   </div>
-                  <div className="accent-blue-700 text-4xl font-mono top-1 fixed flex justify-center">
+                  <div className="accent-blue-700 text-4xl font-mono  fixed flex items-center ml-70">
                       JOHN'S CHATBOT APP
                   </div>
               </div>
