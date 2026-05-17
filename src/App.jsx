@@ -25,9 +25,7 @@ import { Analytics } from "@vercel/analytics/react";
           <div className="mx-auto flex h-[calc(100vh-3rem)] max-h-[56rem] w-full max-w-5xl flex-col overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
               <div className="order-2 border-t border-slate-200 bg-white px-3 py-3 sm:px-4">
                   <div className="mx-auto w-full max-w-4xl">
-                      <div className="accent-blue-700 text-4xl font-mono top-1">
-                          CHATBOT MESSAGES
-                      </div>
+
                       <Analytics/>
                       <ChatInput
                           chatMessages={chatMessages}
@@ -40,6 +38,9 @@ import { Analytics } from "@vercel/analytics/react";
                   className="order-1 flex-1 overflow-y-auto bg-slate-50/70 px-4 py-5 sm:px-6">
                   <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
                       <ChatMessageComponent chatMessages={chatMessages}/>
+                  </div>
+                  <div className="accent-blue-700 text-4xl font-mono top-1">
+                      CHATBOT MESSAGES
                   </div>
               </div>
           </div>
