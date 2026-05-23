@@ -3,12 +3,9 @@ import {useState} from "react";
 const ChatInput = ({chatMessages,setChatMessages}) => {
 
     const [inputText,setInputText]=useState('');
-    const saveInputText = (event) => {
+    const [isLoading , setIsLoading ]= useState(false);
+    const saveInputText =  (event) => {
         setInputText(event.target.value);
-
-
-
-
     }
 
     const onKeyDown=(event)=> {
@@ -18,7 +15,11 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
 
 
 
-    function sendMessages() {
+    async  function sendMessages(e) {
+
+
+        if (!inputText.trim()) return;
+
         const newChatMessages=[...chatMessages,{
             text:inputText,
             key: crypto.randomUUID(),
@@ -28,15 +29,42 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
 
         setChatMessages(newChatMessages);
 
-        const response=window.Chatbot.getResponseAsync(inputText);
-        setChatMessages([...newChatMessages,{
-            text:response,
-            key: crypto.randomUUID(),
-            sender:"robot",
-        },
-        ]);
         setInputText("");
-    }
+
+        setIsLoading(true);
+ try {
+     const response= await fetch('http://localhost:5000/api/chat',
+         {
+             method:"POST",
+             headers:{
+                 'Content-Type':'application/json',
+             },
+             body:JSON.stringify({messages:newChatMessages}),
+         });
+     if(!response.ok){
+         throw new Error("GateWay network response was not ok!")
+     };
+
+     const data = await response.json();
+
+     setChatMessages([...newChatMessages,{
+         text:data.reply,
+         sender:"robot",
+         key: crypto.randomUUID(),
+
+     }]);
+
+     /*<!-- const response=window.Chatbot.getResponseAsync(inputText);
+     */
+ }
+ catch (error) {
+     console.error("Failed to fetch from backend gateway!:",error);
+
+ }
+ finally {
+     setIsLoading(false);
+ }
+    };
     return <div className="flex w-full items-end gap-3">
         <input
             value={inputText}
