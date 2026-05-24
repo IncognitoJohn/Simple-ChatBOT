@@ -1,17 +1,17 @@
 import ChatInput from "./ChatInput.jsx";
 import {Messages} from "./Messages.jsx";
 import {useEffect, useRef, useState} from "react";
-import ChatMessageComponent from "./assets/ChatMessageComponent.jsx";
 import {Analytics} from "@vercel/analytics/react";
-import BotMessageSkeleton from "./ui/BotMessageSkeleton.jsx";
 import {Header} from "./ui/Header.jsx";
 import MovingBackground from "./ui/Background.jsx";
+import {Default} from "./Default.jsx";
 
 
 const App = () => {
     const [chatMessages, setChatMessages] =
         useState(Messages);
     const [isLoading, setIsLoading] = useState(false);
+
     const messagesContainerRef = useRef(null);
 
     useEffect(() => {
@@ -22,6 +22,8 @@ const App = () => {
         }
     }, [chatMessages, isLoading]);
 
+    const welcomeMessage=!chatMessages?.length && !isLoading;
+
 
         return (
 
@@ -31,16 +33,19 @@ const App = () => {
                 <Header/>
 
                 {/* Main app area sits below the fixed header (h-16) and scrolls internally. */}
-                <div className="flex h-screen flex-col pt-16">
-                    <div
-                        ref={messagesContainerRef}
-                        className="min-h-0 flex-1 overflow-y-auto px-4 py-5 sm:px-6"
-                    >
-                        <div className="mx-auto flex w-full max-w-4xl flex-col gap-4">
-                            <ChatMessageComponent chatMessages={chatMessages}/>
-                            {isLoading ? <BotMessageSkeleton/> : null}
-                        </div>
+                <div className="flex h-screen flex-col pt-16 justify-center">
+                     <Default messagesContainerRef={messagesContainerRef}
+                            chatMessages={chatMessages}
+                                           isLoading={isLoading}
+                     welcomeMessage={welcomeMessage}/>
+
+                    { welcomeMessage && <div>
+
+                        HI! what Can I Help you with Today?
+
                     </div>
+                    }
+
 
                     <div className="shrink-0 px-4 pb-6 sm:px-6">
                         <div className="mx-auto w-full max-w-4xl">
