@@ -42,7 +42,7 @@ const App = () => {
                     { welcomeMessage && <div className="text-4xl sm:text-5xl font-normal text-transparent bg-clip-text
                     bg-gradient-to-r from-[#7f7385] via-[#b8acc0] to-[#d5d5d5] tracking-tight text-center mb-6 p-6 ">
 
-                        HI! what Can I Help you with Today?
+                        HI! How Can I Help you Today?
 
                     </div>
                     }

@@ -3,6 +3,8 @@ import {useState} from "react";
 const ChatInput = ({chatMessages, setChatMessages, isLoading, setIsLoading}) => {
 
     const [inputText,setInputText]=useState('');
+
+    const apiBaseUrl = (import.meta.env.VITE_API_BASE_URL || "https://humphreyai.onrender.com").replace(/\/$/, "");
     const saveInputText =  (event) => {
         setInputText(event.target.value);
     }
@@ -33,7 +35,7 @@ const ChatInput = ({chatMessages, setChatMessages, isLoading, setIsLoading}) => 
 
         setIsLoading(true);
  try {
-     const response= await fetch('http://localhost:5000/api/chat',
+     const response= await fetch(`${apiBaseUrl}/api/chat`,
          {
              method:"POST",
              headers:{
