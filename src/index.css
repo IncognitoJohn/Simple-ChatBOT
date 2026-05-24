@@ -7,7 +7,53 @@
     min-height: 100%;
   }
 
-  body {
-    @apply m-0 bg-slate-100 text-slate-900 antialiased;
+/*  body {*/
+/*    @apply m-0 bg-slate-100 text-slate-900 antialiased;*/
+/*  }*/
+/*}*/
+  @layer utilities {
+    /* Define the custom animations and link them to keyframes */
+    .animate-float-one {
+      animation: floatOne 25s infinite alternate ease-in-out;
+    }
+    .animate-float-two {
+      animation: floatTwo 30s infinite alternate ease-in-out;
+    }
+    .animate-float-three {
+      animation: floatThree 20s infinite alternate ease-in-out;
+    }
+
+    /* Define the mathematical movement paths */
+    @keyframes floatOne {
+      0% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(120px, 80px) scale(1.2); }
+      100% { transform: translate(60px, 180px) scale(0.9); }
+    }
+
+    @keyframes floatTwo {
+      0% { transform: translate(0px, 0px) scale(1); }
+      50% { transform: translate(-100px, -120px) scale(0.85); }
+      100% { transform: translate(-180px, 40px) scale(1.1); }
+    }
+
+    @keyframes floatThree {
+      0% { transform: translate(0px, 0px); }
+      50% { transform: translate(-60px, 90px); }
+      100% { transform: translate(120px, -30px); }
+    }
+
+    .animate-laser-slide {
+      animation: laserSlide 4s infinite linear;
+    }
+
+    @keyframes laserSlide {
+      0% {
+        background-position: 0% 50%;
+      }
+      100% {
+        background-position: 200% 50%;
+      }
+    }
   }
-}
+  }
+

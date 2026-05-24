@@ -1,9 +1,8 @@
 import {useState} from "react";
 
-const ChatInput = ({chatMessages,setChatMessages}) => {
+const ChatInput = ({chatMessages, setChatMessages, isLoading, setIsLoading}) => {
 
     const [inputText,setInputText]=useState('');
-    const [isLoading , setIsLoading ]= useState(false);
     const saveInputText =  (event) => {
         setInputText(event.target.value);
     }
@@ -17,6 +16,7 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
 
     async  function sendMessages(e) {
 
+        if (isLoading) return;
 
         if (!inputText.trim()) return;
 
@@ -72,22 +72,27 @@ const ChatInput = ({chatMessages,setChatMessages}) => {
             onKeyDown={onKeyDown}
             type="text"
             placeholder="Enter message..."
+            disabled={isLoading}
             className="min-w-0 flex-1 rounded-lg border
-            border-slate-300 bg-slate-50 px-4 py-3
+            border-red-200 bg-slate-50 px-4 py-3
             text-sm text-slate-900 placeholder:text-slate-400
             shadow-sm outline-none transition
-            focus:border-violet-500 focus:bg-white
-            focus:ring-4 focus:ring-violet-100"
+            focus:border-[#b2a3a4] focus:bg-white
+            focus:ring-4 focus:ring-violet-100
+            disabled:cursor-not-allowed disabled:opacity-80"
         />
         <button
         onClick={sendMessages}
             className="inline-flex shrink-0 items-center
-            justify-center rounded-lg bg-violet-600
-            px-5 py-3 text-sm font-semibold text-white
-            shadow-sm transition hover:bg-violet-700
+            justify-center rounded-lg bg-[#9C9488]
+            px-5 py-3 text-sm font-semibold text-[#f4eff8]
+            shadow-sm transition hover:bg-[#b2a3a4]
             focus:outline-none focus:ring-4
-            focus:ring-violet-200" type="button">
-          Send
+            focus:ring-[#565656]
+            disabled:cursor-not-allowed disabled:opacity-60" type="button"
+            disabled={isLoading}
+        >
+          {isLoading ? "Sending..." : "Send"}
         </button>
     </div>
 };
