@@ -6,7 +6,7 @@ const { text } =props;
         <div className= "max-w-[80%]
         rounded-lg bg-[#fefefe]
        px-4 py-3 text-[15px] leading-6 break-words
-       text-black shadow-sm sm:max-w-2xl "
+       text-stone-800 shadow-sm sm:max-w-2xl "
       >{text}</div>
 
 
@@ -15,7 +15,7 @@ const { text } =props;
 
       <img className="h-10 w-10
         rounded-lg
-         object-cover ring-1 ring-slate-200"
+         object-cover ring-3 ring-slate-200"
            src={`${base}User.jpg`}
             alt="User" />
     </div>

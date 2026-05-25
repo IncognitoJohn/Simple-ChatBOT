@@ -19,7 +19,7 @@ export const Header =()=>{
 
                 {/* Status Indicator */}
                 <div className="flex items-center space-x-2 bg-stone-200/10 border border-stone-200/20 px-3 py-1 rounded-full">
-                    <span className="w-2 h-2 rounded-full bg-red-500 animate-pulse" />
+                    <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
                     <span className="text-xs font-medium text-white uppercase tracking-wider">Online</span>
                 </div>
 
